@@ -204,6 +204,8 @@ a:focus-visible, .btn:focus-visible { outline: 3px solid var(--accent-soft); out
 .card__folder { font-size: 2rem; }
 .card__year { font-family: var(--font-mono); font-size: .8rem; color: var(--slate); }
 .card__title { color: var(--white); font-size: 1.35rem; }
+.card__title a { color: inherit; }
+.card__title a:hover { color: var(--accent-dark); }
 .card__subtitle { color: var(--accent); font-family: var(--font-mono); font-size: .8rem; margin-bottom: .8rem; }
 .card__desc { font-size: .95rem; flex: 1; }
 .card__tags {
